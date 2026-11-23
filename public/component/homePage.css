@@ -1,0 +1,16 @@
+.heading{
+    color: green;
+}
+
+.nav-link{
+     list-style: none;
+     text-decoration: none;
+     margin: 10px;
+}
+.container{
+    background-color: gray;
+}
+.nav-link:hover{
+    background-color: green;
+    font-size: 20px;
+}
