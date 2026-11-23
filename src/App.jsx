@@ -1,14 +1,6 @@
-import { useState } from 'react'
-import h from './assets/hero.png'
-import reactLogo from './assets/react.svg'
+
 import v from './assets/vite.svg'
 import './App.css'
-
-import { Outlet } from 'react-router-dom'
-import Hooks from './Hooks'
-import { ErrorBoundary } from "react-error-boundary";
-
-
 
 function App() {
  
@@ -20,9 +12,18 @@ let sonu=20
    
     {/* <Outlet/>
    */}
-   
-   <h1>hello this is Application </h1>
-   <Hooks/>
+   <h1>This is the end </h1>
+      <div className='main-content'>
+    
+        
+        <div className="box"></div>
+        <div className="box"></div>
+        <div className="box"></div>
+        <div className="box"></div>
+        <div className="box"></div>
+
+      </div>
+  
     </>
   )
 }
